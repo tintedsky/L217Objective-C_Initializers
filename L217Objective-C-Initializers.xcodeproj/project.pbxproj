@@ -13,6 +13,7 @@
 		FC4D8F621F9F8E690080B236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4D8F601F9F8E690080B236 /* Main.storyboard */; };
 		FC4D8F641F9F8E690080B236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4D8F631F9F8E690080B236 /* Assets.xcassets */; };
 		FC4D8F671F9F8E690080B236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4D8F651F9F8E690080B236 /* LaunchScreen.storyboard */; };
+		FC4D8F701F9F926F0080B236 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4D8F6F1F9F926F0080B236 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FC4D8F631F9F8E690080B236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4D8F661F9F8E690080B236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4D8F681F9F8E690080B236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4D8F6E1F9F926F0080B236 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FC4D8F6F1F9F926F0080B236 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				FC4D8F651F9F8E690080B236 /* LaunchScreen.storyboard */,
 				FC4D8F681F9F8E690080B236 /* Info.plist */,
 				FC4D8F571F9F8E690080B236 /* Supporting Files */,
+				FC4D8F6E1F9F926F0080B236 /* Person.h */,
+				FC4D8F6F1F9F926F0080B236 /* Person.m */,
 			);
 			path = "L217Objective-C-Initializers";
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				FC4D8F5F1F9F8E690080B236 /* ViewController.m in Sources */,
 				FC4D8F5C1F9F8E690080B236 /* AppDelegate.m in Sources */,
+				FC4D8F701F9F926F0080B236 /* Person.m in Sources */,
 				FC4D8F591F9F8E690080B236 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
