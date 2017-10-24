@@ -12,6 +12,15 @@
 -(id)initFirstName:(NSString*)first lastName:(NSString*)last{
     self.firstName = first;
     self.lastName = last;
+    return [self initWithDefault];  // return the instance type "id"
+}
+
+-(id)initWithDefault{
+    self = [super init];
     return self;
+}
+
+-(void)printName{
+    NSLog(@"%@ %@", self.firstName, self.lastName);
 }
 @end
