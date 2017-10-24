@@ -9,5 +9,9 @@
 #import "Person.h"
 
 @implementation Person
-
+-(id)initFirstName:(NSString*)first lastName:(NSString*)last{
+    self.firstName = first;
+    self.lastName = last;
+    return self;
+}
 @end

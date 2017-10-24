@@ -23,8 +23,7 @@
     // Of course, we can modify the init function and create designated initializers that do different things.
     Person *person2 = [Person new];         // Method 2, only can use the default initializers, cannot customize them.
     
-    
-    
+    Person *person3 = [[Person alloc]initFirstName:@"Alan" lastName:@"Galaxy"];
 }
 
 
